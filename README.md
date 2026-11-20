@@ -27,7 +27,7 @@ Claude などの AI に作業を委任するリポジトリの、最小の構成
 | `to-spec`、`to-tickets` | 会話の内容から仕様を作成し、Issue に分割する |
 | `setup-matt-pocock-skills` | `to-spec` と `to-tickets` が使用する設定を作成する |
 
-導入する場合は、AI に「microsoft/apm を導入して、apm.yml のスキルを導入してください」と依頼します。スキルは `.agents/skills/` に配置されます。
+導入する場合は、AI に「microsoft/apm を導入して、apm.yml のスキルを導入してください」と依頼します。スキルは `.agents/skills/` に配置されます。導入したスキルは commit します。commit すると、クラウドのセッションと、リポジトリを共有した他の担当者も使用できます。
 
 スキルを追加する場合は、AI に「○○ のスキルを apm.yml に追加してください」と依頼します。
 
