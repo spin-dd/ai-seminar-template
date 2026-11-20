@@ -5,7 +5,8 @@ Claude などの AI に作業を委任するリポジトリの、最小の構成
 | ファイル | 役割 |
 |---|---|
 | `AGENTS.md` | AI がセッションの開始時に読み込むルール |
-| `.claude/skills/retro/SKILL.md` | 振り返りのスキル。`/retro` で起動する |
+| `.agents/skills/retro/SKILL.md` | 振り返りのスキル。`/retro` で起動する |
+| `.claude/skills` | `.agents/skills` へのリンク。Claude がスキルを参照する場所 |
 
 ## 使用方法
 
