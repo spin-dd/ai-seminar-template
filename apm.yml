@@ -1,0 +1,15 @@
+name: ai-seminar-template
+version: 1.0.0
+targets:
+  - agent-skills
+dependencies:
+  apm:
+    - mattpocock/skills/skills/productivity/grilling#24fe0ef7737efae15c87225755e9f6f5965e4888
+    - mattpocock/skills/skills/productivity/grill-me#24fe0ef7737efae15c87225755e9f6f5965e4888
+    - mattpocock/skills/skills/engineering/grill-with-docs#24fe0ef7737efae15c87225755e9f6f5965e4888
+    - mattpocock/skills/skills/engineering/domain-modeling#24fe0ef7737efae15c87225755e9f6f5965e4888
+    - mattpocock/skills/skills/engineering/to-spec#24fe0ef7737efae15c87225755e9f6f5965e4888
+    - mattpocock/skills/skills/engineering/to-tickets#24fe0ef7737efae15c87225755e9f6f5965e4888
+    - mattpocock/skills/skills/engineering/setup-matt-pocock-skills#24fe0ef7737efae15c87225755e9f6f5965e4888
+  mcp: []
+scripts: {}
